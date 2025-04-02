@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-feature-settings: 'liga' off;
+    letter-spacing: 0em;
+}
+
+#menusuperior {
+    height: 475px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#titulo-menusuperior {
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 62px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    margin-top: 206px;
+}
+
+#texto-menusuperior {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 62px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+#menuinformacional {
+    height: 229px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000000;
+    line-height: 40px;
+}
+
+.textoinformativo>p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.textoinformativo>span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#formulario {
+    height: 600px;
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 87px 0 87px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+#titulo-formulario {
+    font-size: 32px;
+    margin: 50px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    color: rgba(255, 255, 255, 0.85);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    /* box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.5s;
+}
+
+#secao-foto {
+    height: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo-foto {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 62px;
+    line-height: 20px;
+}
+
+#texto-foto {
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 62px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+#foto {
+    width: 510px;
+    height: 605px;
+    margin-left: 62px;
+    margin-right: 62px;
+    border-radius: 30px;
+}
