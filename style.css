@@ -15,7 +15,7 @@
 #titulo-menusuperior {
     font-size: 60px;
     font-weight: 600;
-    margin-left: 62px;
+    margin-left: 60px;
     line-height: 72px;
     letter-spacing: -0.025em;
     margin-top: 206px;
@@ -24,7 +24,7 @@
 #texto-menusuperior {
     font-size: 20px;
     font-weight: 500;
-    margin-left: 62px;
+    margin-left: 60px;
     line-height: 28px;
     margin-top: 10px;
 }
@@ -47,6 +47,55 @@
 .textoinformativo>span {
     font-size: 20px;
     font-weight: 400;
+}
+
+#secao-foto {
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#secao-foto>div:first-child {
+    flex: 3;
+    padding: 10px;
+}
+
+/* Alinha a imagem à direita */
+#secao-foto>div:last-child {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#texto-foto {
+    margin-left: 60px;
+}
+
+#titulo-foto {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#subtitulo-foto {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+#img-foto {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#foto {
+    width: 510px;
+    height: 605px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 30px;
 }
 
 #formulario {
@@ -109,35 +158,4 @@ button:hover {
     /* box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.3); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition-duration: 0.5s;
-}
-
-#secao-foto {
-    height: 850px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#titulo-foto {
-    font-size: 40px;
-    font-weight: 500;
-    margin-left: 62px;
-    line-height: 20px;
-}
-
-#texto-foto {
-    font-size: 24px;
-    font-weight: 300;
-    margin-left: 62px;
-    line-height: 30px;
-    margin-top: 50px;
-}
-
-#foto {
-    width: 510px;
-    height: 605px;
-    margin-left: 62px;
-    margin-right: 62px;
-    border-radius: 30px;
 }
